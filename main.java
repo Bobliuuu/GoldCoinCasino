@@ -10,7 +10,6 @@ import java.io.*;
 // This program manages a complete casino.
 // The casino keeps track of the user's coin balance and has a variety of games to choose from.
 
-
 public class Casino {
 	// Initialize file readers and writers
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // BufferedReader for file input
