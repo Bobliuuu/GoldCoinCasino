@@ -209,6 +209,10 @@ public class Casino {
 		// Start main hit/stand game loop
 		while (true)
 		{
+			if (player > 21) {
+				win = false;
+				break;
+			}
 			if (done)
 			{
 				break;
@@ -995,9 +999,9 @@ public class Casino {
 				}
 			}
 			// Prompt the user to choose a case to remove
-			System.out.println("Choose a case to eliminate (0-6): ");
 			while (true)
 			{
+				System.out.println("Choose a case to eliminate (0-6): ");
 				try
 				{
 					option = readInt();
