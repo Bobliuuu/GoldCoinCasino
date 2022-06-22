@@ -1,5 +1,5 @@
 # The Gold Coin Casino
-A multi-purpose, efficient, and entertaining Casino Program made using Java and the Eclipse IDE. 
+An entertaining all-inclusive text-based Casino program made using Java and the Eclipse IDE. 
 
 <Add image here>
 
